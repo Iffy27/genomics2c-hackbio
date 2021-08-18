@@ -1,10 +1,12 @@
+##              Hackbio Stage Two TProject for \#Genomics_two_C 
+
 # Project Title: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data
 
 **Tutorial Link**: [Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data (galaxyproject.org)](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html#prepare-galaxy-and-data)
 
 ## Graphical Abstract
 
-![design4bio](https://user-images.githubusercontent.com/71774308/129928073-cd099942-3920-417c-8048-43c3a94c1eff.png)
+<img src= "https://user-images.githubusercontent.com/71774308/129928073-cd099942-3920-417c-8048-43c3a94c1eff.png" alt="design" width = "500"/>
 
 ## Introduction 
 
@@ -29,7 +31,7 @@ The aim of this research is to extract annotated allelic variants in SARS-Cov-2 
 
 ## Methodology/ Workflow
 
-1. Prepare Galaxy and data
+**1. Prepare Galaxy and data**
 
 •	Get sequencing data -Here, dataset present in Galaxy and stored on [Zenodo](https://zenodo.org/record/5036687) were retrieved using the following URLs;
 
@@ -47,19 +49,19 @@ Find full list of URLs at <https://training.galaxyproject.org/training-material/
 >   - ARTIC v3 primer scheme (`ARTIC_nCoV-2019_v3.bed`)
 >   - ARTIC v3 primer amplicon grouping info ('ARTIC_amplicon_info_v3.tsv') 
 
-2. From FASTQ to annotated allelic variants
+**2. From FASTQ to annotated allelic variants**
 
 In order to identify the SARS-CoV-2 allelic variants (AVs), Illumina ARTIC Workflow (also named `COVID-19: variation analysis` on ARTIC PE data) available on Galaxy was used on the paired-end data retrieved. It consists of a series of steps that include; quality control, trimming, mapping, deduplication, AV calling, and filtering.
 
-3. From annotated AVs per sample to AV summary
+**3. From annotated AVs per sample to AV summary**
 
 After we have identified Annotated Variants for each sample, a “Reporting Workflow" available on Galaxy was ran on them to generate a final Annotated variants summary. This workflow takes the collection of called (with lofreq) and annotated (with SnpEff) variants (one VCF dataset per input sample) that got generated as one of the outputs of any of the four variation analysis workflows above, and generates two tabular reports and an overview plot summarizing all the variant information for our batch of samples. 
 
-4. From AVs to consensus sequences
+**4. From AVs to consensus sequences**
 
 For the variant calls, we then ran a workflow which generates reliable consensus sequences according to transparent criteria that capture at least some of the complexity of variant calling. The workflow takes a collection of VCFs and a collection of the corresponding aligned reads (for the purpose of calculating genome-wide coverage).
 
-5. From consensus sequences to clade/lineage assignments
+**5. From consensus sequences to clade/lineage assignments**
 
 To assign lineages to the different samples from their consensus sequences, two available tools: Pangolin and Nextclade were used.
 
