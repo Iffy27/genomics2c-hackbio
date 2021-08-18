@@ -1,4 +1,4 @@
-##              Hackbio Stage Two TProject for \#Genomics_two_C 
+##              Hackbio Stage Two Project for \#Genomics_two_C 
 
 # Project Title: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data
 
