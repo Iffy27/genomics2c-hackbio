@@ -2,11 +2,11 @@
 
 **Tutorial Link**: [Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data (galaxyproject.org)](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html#prepare-galaxy-and-data)
 
-### Graphical Abstract
+## Graphical Abstract
 
 ![design4bio](https://user-images.githubusercontent.com/71774308/129928073-cd099942-3920-417c-8048-43c3a94c1eff.png)
 
-### Introduction 
+## Introduction 
 
 Effectively monitoring global infectious disease crises, such as the COVID-19 pandemic, requires capacity to generate and analyze large volumes of sequencing data in near real time.
 
@@ -14,11 +14,11 @@ These data have proven essential for monitoring the emergence and spread of new 
 
 For this research, The Galaxy community will be used because it has high-quality analysis workflows to support sensitive identification of SARS-CoV-2 allelic variants (AVs) starting with allele frequencies as low as 5% from deep sequencing reads, generate user-friendly reports for batches of results and generate reliable and configurable consensus genome  from called variants
 
-### Aim
+## Aim
 
 The aim of this research is to extract annotated allelic variants in SARS-Cov-2 sequences and identify SARS-CoV-2 lineages using different tools and workflows in Galaxy. Team Genomics_two_c will be extracting annotated allergic variants in SARS-Cov-2 sequences to identify SARS-Cov-2 lineages using different tools and workflows in Galaxy.
 
-### Objectives:
+## Objectives:
 
 - SARS-CoV-2 data preparation
 - Select and run workflow to extract annotated allelic variants from FASTQ files
@@ -27,17 +27,17 @@ The aim of this research is to extract annotated allelic variants in SARS-Cov-2 
 - Run workflow to extract consensus sequences
 - Select and run tools to assign clades/lineages
 
-### Methodology/ Workflow
+## Methodology/ Workflow
 
 1. Prepare Galaxy and data
 
 •	Get sequencing data -Here, dataset present in Galaxy and stored on [Zenodo](https://zenodo.org/record/5036687) were retrieved using the following URLs;
 
-> <https://zenodo.org/record/5036687/files/ERR5931005_1.fastqsanger.gz>
-> <https://zenodo.org/record/5036687/files/ERR5931005_2.fastqsanger.gz
-> <https://zenodo.org/record/5036687/files/ERR5931006_1.fastqsanger.gz>
-> <https://zenodo.org/record/5036687/files/ERR5931006_2.fastqsanger.gz>
-> <https://zenodo.org/record/5036687/files/ERR5931007_1.fastqsanger.gz>
+> `https://zenodo.org/record/5036687/files/ERR5931005_1.fastqsanger.gz
+> https://zenodo.org/record/5036687/files/ERR5931005_2.fastqsanger.gz
+> https://zenodo.org/record/5036687/files/ERR5931006_1.fastqsanger.gz
+> https://zenodo.org/record/5036687/files/ERR5931006_2.fastqsanger.gz
+> https://zenodo.org/record/5036687/files/ERR5931007_1.fastqsanger.gz`
 
 Find full list of URLs at <https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html#prepare-galaxy-and-data>
 
@@ -72,7 +72,7 @@ Nextclade assigned clades, called mutations and performed sequence quality check
 -	Comparison between Pangolin and Nextclade assignments
 We compared Pangolin and Nextclade clade assignments by extracting interesting columns and joining them into a single dataset using sample ids. 
 
-### Results and Discussion
+## Results and Discussion
 
 The three key results datasets produced by the reporting workflow (in step 3 above) include: 
 
@@ -84,9 +84,9 @@ The three key results datasets produced by the reporting workflow (in step 3 abo
 
 We found that Pangolin and Nextclade are globally coherent despite differences in lineage nomenclature
 
-### Bibliography
-\[1] Budd, J., Miller, B.S., Manning, E.M., Lampos, V., Zhuang, M., Edelstein, M. et al. (2020). Digital technologies in the public-health response to COVID-19. Nature Medicine **26**, 1183-1192.
-\[2] Ting, D.S., Carin, L., Dzau, V. and Wong, T.Y. (2020). Digital technology and COVID-19. Nature Medicine **26**, 459-461.
-\[3] <https://www.biocommons.org.au/events/galaxy-sars-cov2>
-\[4] <https://pha4ge.org/sars-cov-2-data-analysis-and-monitoring-with-galaxy/>
+## Bibliography
+\[1] Budd, J., Miller, B.S., Manning, E.M., Lampos, V., Zhuang, M., Edelstein, M. et al. (2020). Digital technologies in the public-health response to COVID-19. *Nature Medicine* **26**, 1183-1192.\
+\[2] Ting, D.S., Carin, L., Dzau, V. and Wong, T.Y. (2020). Digital technology and COVID-19. *Nature Medicine* **26**, 459-461.\
+\[3] <https://www.biocommons.org.au/events/galaxy-sars-cov2>\
+\[4] <https://pha4ge.org/sars-cov-2-data-analysis-and-monitoring-with-galaxy/>\
 \[5] <https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html#prepare-galaxy-and-data>
