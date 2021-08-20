@@ -8,7 +8,12 @@ Replicate a bioinformatic tutorial that relates to team biostack, i.e., genomics
 Tutorial Link: https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html 
 
 ### Project Description
+Massive amount of sequencing data that are generated and analysed in real-time can be used to effectively monitor higly infectious disease such as the ongoing COVID-19 pandemic. This effective monitoring allows researchers to track the emergence and transmission of mutants and comprehend the evolutionary dynamics as well.
+SARS-CoV-2 sequence data is primarily generated using two sequencing platforms - Illumina and Oxford Nanopore, and various established library preparation procedures like Ampliconic and Metatranscriptomic. However, these data has no meaning in itself, unless it is analysed.
+Thus, the Galaxy community will be used because it has high-quality analysis workflows to support sensitive identification of SARS-CoV-2 allelic variants (AVs) starting with allele frequencies as low as 5% from deep sequencing reads, generate user-friendly reports for batches of results and generate reliable and configurable consensus genome from called variants.
 
+### Aim
+The aim of this research is to extract annotated allelic variants in SARS-Cov-2 sequences and identify SARS-CoV-2 lineages using different tools and workflows in Galaxy. Team Genomics_two_c will be extracting annotated allergic variants in SARS-Cov-2 sequences to identify SARS-Cov-2 lineages using different tools and workflows in Galaxy.
 
 ### Workflow 
 
