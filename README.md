@@ -1,23 +1,25 @@
-# About Team Genomics_two_C
-Hii all! Meet Team Genomics_two_C ! We are a highly enthusiast team of 14 members from diverse background, but what draws us together is our common interest in genomics.
+![image](https://user-images.githubusercontent.com/88307823/130266740-d626f147-90f2-46e6-9fcf-51bd8c468579.png)
 
-# HackBio Internship 2021 Stage_2 Task
+# HackBio Internship 2021 Stage_2 Task 🌈
 - Replicate a bioinformatic tutorial that relates to team biostack, i.e., genomics.
 - Advertise about the tutorial on #transfer-market channel on Slack through quick and simple design.
 - Make a comprehensive markdown of the tutorial steps.
 
-## Project Title: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data.
+# About Team Genomics_two_C 🌈
+Hii all! Meet Team Genomics_two_C ! We are a highly enthusiast team of 14 members from diverse background; but what draws us together is our common interest in genomics.
+
+## :computer: Project Title: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data.
 Tutorial Link: https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html 
 
-### Project Description
+### Project Description 📝
 Massive amount of sequencing data that are generated and analysed in real-time can be used to effectively monitor higly infectious disease such as the ongoing COVID-19 pandemic. This effective monitoring allows researchers to track the emergence and transmission of mutants and comprehend the evolutionary dynamics as well.
 SARS-CoV-2 sequence data is primarily generated using two sequencing platforms - Illumina and Oxford Nanopore, and various established library preparation procedures like Ampliconic and Metatranscriptomic. However, these data has no meaning in itself, unless it is analysed.
 Thus, the Galaxy community will be used because it has high-quality analysis workflows to support sensitive identification of SARS-CoV-2 allelic variants (AVs) starting with allele frequencies as low as 5% from deep sequencing reads, generate user-friendly reports for batches of results and generate reliable and configurable consensus genome from called variants.
 
-### Aim
+### Aim :dart:
 Through this genomic analysis, team Genomics_two_C aims to extract annotated allelic variants in SARS-Cov-2 sequences and identify SARS-CoV-2 lineages using different tools and workflows in Galaxy.
 
-### Workflow
+### Workflow 👨‍💻
 
 ![image](https://user-images.githubusercontent.com/88307823/130225895-3324abe4-8f54-43df-821d-b50144321510.png)
 
@@ -37,7 +39,7 @@ Next, two tools were used to assign lineages to the different samples from their
 
 **Step7: Comparing Pangolin and Nextclade assignments** - Comparision was performed between Pangolin and Nextclade clade assignments by extracting interesting columns and joining them into a single dataset using sample ids.
 
-### Results/Conclusion
+### Results/Conclusion 📗
 The three key results datasets produced by the reporting workflow (in step 3 above) include:
 
 1. Combined Variant Report by Sample: This table combines the key statistics for each AV call in each sample. Each line in the dataset represents one AV detected in one specific sample
@@ -48,7 +50,7 @@ The three key results datasets produced by the reporting workflow (in step 3 abo
 
 We found that Pangolin and Nextclade are globally coherent despite differences in lineage nomenclature
 
-## Contribution
+## Team Work 🤜🤛
 
 |S/N| Contributor's slack handle| Contribution|
 |--|-----------------|--------------------------------------------|
@@ -63,6 +65,6 @@ We found that Pangolin and Nextclade are globally coherent despite differences i
 |09|@Preeti|Comparing Pangolin and Nextclade|
 |10|@Iffy, @Sadaf, @Preeti|Create markdown on Github|
 
-### References
+### References 📚
 1. Wolfgang Maier, Bérénice Batut, 2021 Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data (Galaxy Training Materials). https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html Online; accessed Fri Aug 20 2021
 2. Batut et al., 2018 Community-Driven Data Analysis Training for Biology Cell Systems https://doi.org/10.1016%2Fj.cels.2018.05.012
