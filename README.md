@@ -1,8 +1,10 @@
 # About Team Genomics_two_C
-Hii all! Meet Team Genomics_two_C ! We are a great team of 14 members from diverse background, but what draws us together is our common interest in genomics.
+Hii all! Meet Team Genomics_two_C ! We are a highly enthusiast team of 14 members from diverse background, but what draws us together is our common interest in genomics.
 
 # HackBio Internship 2021 Stage_2 Task
-Replicate a bioinformatic tutorial that relates to team biostack, i.e., genomics
+- Replicate a bioinformatic tutorial that relates to team biostack, i.e., genomics.
+- Advertise about the tutorial on #transfer-market channel on Slack through quick and simple design.
+- Make a comprehensive markdown of the tutorial steps.
 
 ## Project Title: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data.
 Tutorial Link: https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html 
@@ -16,6 +18,9 @@ Thus, the Galaxy community will be used because it has high-quality analysis wor
 Through this genomic analysis, team Genomics_two_C aims to extract annotated allelic variants in SARS-Cov-2 sequences and identify SARS-CoV-2 lineages using different tools and workflows in Galaxy.
 
 ### Workflow
+
+![image](https://user-images.githubusercontent.com/88307823/130225895-3324abe4-8f54-43df-821d-b50144321510.png)
+
 Step1: Prepare Galaxy and data
 
 Step2: From FASTQ to annotated allelic variants
