@@ -108,7 +108,7 @@ ERR5949469	20I (Alpha, V1)	ERR5949469	B.1.1.7	Alpha (B.1.1.7-like)
 
 B.1.1.7		14\
 B.1.525		1\
-B.1.617.2 	3\
+B.1.617.2 	3
 
 
 - **Lineage from Nextclade**
