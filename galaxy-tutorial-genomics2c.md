@@ -82,8 +82,6 @@ The three key results datasets produced by the reporting workflow (in step 3 abo
 
 2.	Combined Variant Report by Variant: This table combines the information about each AV across samples.
 
-3.	Variant frequency plot: This plot represents AFs (cell color) for the different AVs (columns) and the different samples (rows). The AVs are grouped by genes (different colors on the 1st row). Information about their effect is also represented on the 2nd row. The samples are clustered following the tree displayed on the left.
-
 > ERR5931005
 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAGATCT
 GTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACT
@@ -9082,7 +9080,9 @@ AGAGCTGCCTATATGGAAGAGCCCTAATGTGTAAAATTAATTTTAGTAGTGCTATCCNNN
 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 NNNN
 
-We found that Pangolin and Nextclade are globally coherent despite differences in lineage nomenclature
+3.	Variant frequency plot: This plot represents AFs (cell color) for the different AVs (columns) and the different samples (rows). The AVs are grouped by genes (different colors on the 1st row). Information about their effect is also represented on the 2nd row. The samples are clustered following the tree displayed on the left.
+
+Also, we found that Pangolin and Nextclade are globally coherent despite differences in lineage nomenclature
 
 ## Bibliography
 \[1] Budd, J., Miller, B.S., Manning, E.M., Lampos, V., Zhuang, M., Edelstein, M. et al. (2020). Digital technologies in the public-health response to COVID-19. *Nature Medicine* **26**, 1183-1192.\
