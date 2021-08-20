@@ -1,6 +1,5 @@
-![image](https://user-images.githubusercontent.com/88307823/130266740-d626f147-90f2-46e6-9fcf-51bd8c468579.png)
-
 # HackBio Internship 2021 Stage_2 Task 🌈
+
 - Replicate a bioinformatic tutorial that relates to team biostack, i.e., genomics.
 - Advertise about the tutorial on #transfer-market channel on Slack through quick and simple design.
 - Make a comprehensive markdown of the tutorial steps.
@@ -40,15 +39,49 @@ Next, two tools were used to assign lineages to the different samples from their
 **Step7: Comparing Pangolin and Nextclade assignments** - Comparision was performed between Pangolin and Nextclade clade assignments by extracting interesting columns and joining them into a single dataset using sample ids.
 
 ### Results/Conclusion 📗
-The three key results datasets produced by the reporting workflow (in step 3 above) include:
 
-1. Combined Variant Report by Sample: This table combines the key statistics for each AV call in each sample. Each line in the dataset represents one AV detected in one specific sample
+- Result of step one is contained in the link below.\
+<https://github.com/Iffy27/genomics2c-hackbio/blob/main/Results%20workflow%201%20step%201.zip>
 
-2. Combined Variant Report by Variant: This table combines the information about each AV across samples.
+- The dataset produced by the reporting workflow  include a variant frequency plot. This plot represents AFs (cell color) for the different AVs (columns) and the different samples (rows). The AVs are grouped by genes (different colors on the 1st row). Information about their effect is also represented on the 2nd row. The samples are clustered following the tree displayed on the left.
 
-3. Variant frequency plot: This plot represents AFs (cell color) for the different AVs (columns) and the different samples (rows). The AVs are grouped by genes (different colors on the 1st row). Information about their effect is also represented on the 2nd row. The samples are clustered following the tree displayed on the left.
+<img src= "https://user-images.githubusercontent.com/71774308/130228701-444375b9-d1cf-437c-8cdc-b1cebc6157aa.jpg" alt="design" height = "500" width = "1000"/>
 
-We found that Pangolin and Nextclade are globally coherent despite differences in lineage nomenclature
+- **Result_Comparison between nextclade and pangolin output**
+
+ERR5931005	21A (Delta)	ERR5931005	B.1.617.2	Delta (B.1.617.2-like)\
+ERR5931006	21A (Delta)	ERR5931006	B.1.617.2	Delta (B.1.617.2-like)\
+ERR5931007	20I (Alpha, V1)	ERR5931007	B.1.1.7	Alpha (B.1.1.7-like)\
+ERR5931008	21A (Delta)	ERR5931008	B.1.617.2	Delta (B.1.617.2-like)\
+ERR5949456	20I (Alpha, V1)	ERR5949456	B.1.1.7	Alpha (B.1.1.7-like)\
+ERR5949457	20I (Alpha, V1)	ERR5949457	B.1.1.7	Alpha (B.1.1.7-like)\
+ERR5949458	20I (Alpha, V1)	ERR5949458	B.1.1.7	Alpha (B.1.1.7-like)\
+ERR5949459	20I (Alpha, V1)	ERR5949459	B.1.1.7	Alpha (B.1.1.7-like)\
+ERR5949460	21D (Eta)	ERR5949460	B.1.525	Eta (B.1.525-like)\
+ERR5949461	20I (Alpha, V1)	ERR5949461	B.1.1.7	Alpha (B.1.1.7-like)\
+ERR5949462	20I (Alpha, V1)	ERR5949462	B.1.1.7	Alpha (B.1.1.7-like)\
+ERR5949463	20I (Alpha, V1)	ERR5949463	B.1.1.7	Alpha (B.1.1.7-like)\
+ERR5949464	20I (Alpha, V1)	ERR5949464	B.1.1.7	Alpha (B.1.1.7-like)\
+ERR5949465	20I (Alpha, V1)	ERR5949465	B.1.1.7	Alpha (B.1.1.7-like)\
+ERR5949466	20I (Alpha, V1)	ERR5949466	B.1.1.7	Alpha (B.1.1.7-like)\
+ERR5949467	20I (Alpha, V1)	ERR5949467	B.1.1.7	Alpha (B.1.1.7-like)\
+ERR5949468	20I (Alpha, V1)	ERR5949468	B.1.1.7	Alpha (B.1.1.7-like)\
+ERR5949469	20I (Alpha, V1)	ERR5949469	B.1.1.7	Alpha (B.1.1.7-like)
+
+- **Lineage from Pangolin**
+
+B.1.1.7		14\
+B.1.525		1\
+B.1.617.2 	3
+
+
+- **Lineage from Nextclade**
+
+20I (Alpha, V1)	14\
+21A (Delta)	3\
+21D (Eta)	1
+
+From the results, we found that Pangolin and Nextclade are globally coherent despite differences in lineage nomenclature.
 
 ## Team Work 🤜🤛
 
@@ -66,5 +99,10 @@ We found that Pangolin and Nextclade are globally coherent despite differences i
 |10|@Iffy, @Sadaf, @Preeti|Create markdown on Github|
 
 ### References 📚
-1. Wolfgang Maier, Bérénice Batut, 2021 Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data (Galaxy Training Materials). https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html Online; accessed Fri Aug 20 2021
-2. Batut et al., 2018 Community-Driven Data Analysis Training for Biology Cell Systems https://doi.org/10.1016%2Fj.cels.2018.05.012
+\[1] Budd, J., Miller, B.S., Manning, E.M., Lampos, V., Zhuang, M., Edelstein, M. et al. (2020). Digital technologies in the public-health response to COVID-19. *Nature Medicine* **26**, 1183-1192.\
+\[2] Ting, D.S., Carin, L., Dzau, V. and Wong, T.Y. (2020). Digital technology and COVID-19. *Nature Medicine* **26**, 459-461.\
+\[3] Wolfgang Maier, Bérénice Batut, 2021 Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data (Galaxy Training Materials). https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html Online; accessed Fri Aug 20 2021\
+\[4] Batut et al., 2018 Community-Driven Data Analysis Training for Biology Cell Systems https://doi.org/10.1016%2Fj.cels.2018.05.012\
+\[5]<https://www.biocommons.org.au/events/galaxy-sars-cov2>\
+\[6] <https://pha4ge.org/sars-cov-2-data-analysis-and-monitoring-with-galaxy/>\
+\[7] <https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html#prepare-galaxy-and-data>
