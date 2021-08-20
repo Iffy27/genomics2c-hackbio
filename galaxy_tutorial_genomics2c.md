@@ -9096,7 +9096,9 @@ NNNN
 <table>
     <tr>
         <td> <a href ="https://github.com/Iffy27/genomics2c-hackbio/blob/09dc15d6248b644deb9c469dcb1bfa450d2caaff/Results%20workflow%202%20step%202/Combined_Variant_Report_by_Sample_Workflow2.tabular"></a>
-
+        </td>
+    </tr>
+</table>
 - Lineage from Pangolin
 > 
 B.1.1.7	14
