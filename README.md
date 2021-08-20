@@ -8,3 +8,10 @@ Replicate a bioinformatic tutorial that relates to team biostack, i.e., genomics
 
 ## Project Title: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data.
 Tutorial Link: https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html 
+
+# Project Description
+
+
+# Workflow 
+
+# Contribution
