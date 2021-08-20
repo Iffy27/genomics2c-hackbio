@@ -109,7 +109,7 @@ We compared Pangolin and Nextclade clade assignments by extracting interesting c
 
 B.1.1.7		14\
 B.1.525		1\
-B.1.617.2 	3\
+B.1.617.2 	3
 
 - **Nextclade output**
 
