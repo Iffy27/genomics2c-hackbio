@@ -76,11 +76,16 @@ We compared Pangolin and Nextclade clade assignments by extracting interesting c
 
 ## Results and Discussion
 
-The three key results datasets produced by the reporting workflow (in step 3 above) include: 
+1. Result of step one is contained in the link below.\
+<https://github.com/Iffy27/genomics2c-hackbio/blob/main/Results%20workflow%201%20step%201.zip>
 
-1.	Combined Variant Report by Sample: This table combines the key statistics for each AV call in each sample. Each line in the dataset represents one AV detected in one specific sample
+2.
 
-2.	Combined Variant Report by Variant: This table combines the information about each AV across samples.
+3. The three key results datasets produced by the reporting workflow (in step 3 above) include: 
+
+a.	Combined Variant Report by Sample: This table combines the key statistics for each AV call in each sample. Each line in the dataset represents one AV detected in one specific sample
+
+b.	Combined Variant Report by Variant: This table combines the information about each AV across samples.
 
 > ERR5931005
 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAGATCT
