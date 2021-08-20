@@ -15,6 +15,17 @@ Thus, the Galaxy community will be used because it has high-quality analysis wor
 ### Aim
 The aim of this research is to extract annotated allelic variants in SARS-Cov-2 sequences and identify SARS-CoV-2 lineages using different tools and workflows in Galaxy. Team Genomics_two_c will be extracting annotated allergic variants in SARS-Cov-2 sequences to identify SARS-Cov-2 lineages using different tools and workflows in Galaxy.
 
-### Workflow 
+### Workflow
+Step1
 
 ### Contribution
+|01|@Sadaf|Conceptualization of workflow|
+|02|@Subhodeep, @Borode|Flyer Design|
+|03|@Eslam55520, @poornima|Sample and Auxillary data retrieval|
+|04|@poornima, @Sadaf|FastQC to annotated allelic variants|
+|05|@Sadaf, @chimere, @Nandy| Annotated AVs per sample to AV summary|
+|06|@Borode, @Rhoda, @Sadaf|AVs to consensus sequences|
+|07|@Fatima, @Mohamed, @Nuiter|Consensus sequences to clade assignments with Pangolin|
+|08|@Emma, @Subhodeep|Consensus sequences to clade assignments with Nextclade|
+|09|@Preeti|Comparing Pangolin and Nextclade|
+|10|@Iffy, @Sadaf, @Preeti|Create markdown on Github|
