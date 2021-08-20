@@ -9082,6 +9082,7 @@ NNNN
 
 3.	Variant frequency plot: This plot represents AFs (cell color) for the different AVs (columns) and the different samples (rows). The AVs are grouped by genes (different colors on the 1st row). Information about their effect is also represented on the 2nd row. The samples are clustered following the tree displayed on the left.
 
+<img src= "https://user-images.githubusercontent.com/71774308/130228701-444375b9-d1cf-437c-8cdc-b1cebc6157aa.jpg" alt="design" width = "500"/>
 Also, we found that Pangolin and Nextclade are globally coherent despite differences in lineage nomenclature
 
 ## Bibliography
