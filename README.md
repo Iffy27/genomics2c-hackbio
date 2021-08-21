@@ -24,21 +24,21 @@ Through this genomic analysis, team Genomics_two_C aims to extract annotated all
 
 ![image](https://user-images.githubusercontent.com/88307823/130225895-3324abe4-8f54-43df-821d-b50144321510.png)
 
-**Step1: Prepare Galaxy and data** - The sample and auxillary dataset were retrieved from [Zonedo](https://zenodo.org/record/5036687#.YR-ceo4zY2w). Auxillary dataset were used for the purpose of calling variants and annotating them.
+**Step1: Prepare Galaxy and data** - Retrieve the sample and auxillary datasets from [Zonedo](https://zenodo.org/record/5036687#.YR-ceo4zY2w). Use auxillary dataset for the purpose of calling variants and annotating them.
 
-**Step2: From FASTQ to annotated allelic variants** - In order to identify the SARS-CoV-2 allelic variants (AVs), Illumina ARTIC Workflow (also named COVID-19: variation analysis on ARTIC PE data) available on Galaxy was used on the paired-end data retrieved. It consists of a series of steps that include; quality control, trimming, mapping, deduplication, AV calling, and filtering.
+**Step2: From FASTQ to annotated allelic variants** - In order to identify the SARS-CoV-2 allelic variants (AVs), use Illumina ARTIC Workflow (also named COVID-19: variation analysis on ARTIC PE data) available on Galaxy on the paired-end data retrieved. It consists of a series of steps that include; quality control, trimming, mapping, deduplication, AV calling, and filtering.
 
-**Step3: From annotated AVs per sample to AV summary** - After we have identified Annotated Variants for each sample, a “Reporting Workflow" available on Galaxy was ran on them to generate a final Annotated variants summary. This workflow takes the collection of called (with lofreq) and annotated (with SnpEff) variants (one VCF dataset per input sample) that got generated as one of the outputs of any of the four variation analysis workflows above, and generates two tabular reports and an overview plot summarizing all the variant information for our batch of samples.
+**Step3: From annotated AVs per sample to AV summary** - After identifying the Annotated Variants for each sample, run a “Reporting Workflow" available on Galaxy on them to generate a final Annotated variants summary. This workflow takes the collection of called (with lofreq) and annotated (with SnpEff) variants (one VCF dataset per input sample) that got generated as one of the outputs of any of the four variation analysis workflows above, and generates two tabular reports and an overview plot summarizing all the variant information for our batch of samples.
 
-**Step4: From AVs to consensus sequences** - For the variant calls, we then ran a workflow which generates reliable consensus sequences according to transparent criteria that capture at least some of the complexity of variant calling. The workflow takes a collection of VCFs and a collection of the corresponding aligned reads (for the purpose of calculating genome-wide coverage).
+**Step4: From AVs to consensus sequences** - For the variant calls, now run a workflow which generates reliable consensus sequences according to transparent criteria that capture at least some of the complexity of variant calling. The workflow takes a collection of VCFs and a collection of the corresponding aligned reads (for the purpose of calculating genome-wide coverage).
 
-Next, two tools were used to assign lineages to the different samples from their consensus sequences - Pangolin and Nextclade.
+Next, use two tools to assign lineages to the different samples from their consensus sequences - Pangolin and Nextclade.
 
-**Step5: From consensus sequences to clade/lineage assignments using Pangolin** - Pangolin (Phylogenetic Assignment of Named Global Outbreak LINeages) was used to assign a SARS-CoV-2 genome sequence, the most likely lineage based on the PANGO nomenclature system. Pangolin generated a table file with taxon name and lineage assigned.
+**Step5: From consensus sequences to clade/lineage assignments using Pangolin** - Use Pangolin (Phylogenetic Assignment of Named Global Outbreak LINeages) to assign a SARS-CoV-2 genome sequence, the most likely lineage based on the PANGO nomenclature system. Pangolin generates a table file with taxon name and lineage assignment.
 
-**Step6: From consensus sequences to clade/lineage assignments using Nextclade** - Nextclade assigned clades, called mutations and performed sequence quality checks on SARS-CoV-2 genomes.
+**Step6: From consensus sequences to clade/lineage assignments using Nextclade** - Use Nextclade to assign clades, call mutations and perform sequence quality checks on SARS-CoV-2 genomes.
 
-**Step7: Comparing Pangolin and Nextclade assignments** - Comparision was performed between Pangolin and Nextclade clade assignments by extracting interesting columns and joining them into a single dataset using sample ids.
+**Step7: Comparing Pangolin and Nextclade assignments** - Perform comparisons between Pangolin and Nextclade clade assignments by extracting interesting columns and joining them into a single dataset using sample ids.
 
 ### Results/Conclusion 📗
 
@@ -75,14 +75,13 @@ From the results, we found that Pangolin and Nextclade are globally coherent des
 |01|@Sadaf|Conceptualization of workflow|
 |02|@Subhodeep, @Borode|Flyer Design|
 |03|@Eslam55520, @poornima, @Nuiter|Sample and Auxillary data retrieval|
-|04|@poornima, @Sadaf, @Nuiter|FastQC to annotated allelic variants|
-|05|@Sadaf, @chimere, @Nandy, @Nuiter| Annotated AVs per sample to AV summary|
-|06|@Borode, @Rhoda, @Sadaf, @Nuiter|AVs to consensus sequences|
-|07|@Fatima, @Mohamed, @Nuiter|Consensus sequences to clade assignments with Pangolin|
-|08|@Emma, @Subhodeep, @Nuiter|Consensus sequences to clade assignments with Nextclade|
+|04|@poornima, @Sadaf|FastQC to annotated allelic variants|
+|05|@Sadaf, @chimere, @Nandy| Annotated AVs per sample to AV summary|
+|06|@Borode, @Rhoda, @Sadaf|AVs to consensus sequences|
+|07|@Fatima, @Mohamed|Consensus sequences to clade assignments with Pangolin|
+|08|@Emma, @Subhodeep|Consensus sequences to clade assignments with Nextclade|
 |09|@Preeti|Comparing Pangolin and Nextclade|
 |10|@Iffy, @Sadaf, @Preeti|Create markdown on Github|
-|11|@Nuiter|Workflow Video Creation|
 
 ### References 📚
 \[1] Budd, J., Miller, B.S., Manning, E.M., Lampos, V., Zhuang, M., Edelstein, M. et al. (2020). Digital technologies in the public-health response to COVID-19. *Nature Medicine* **26**, 1183-1192.\
