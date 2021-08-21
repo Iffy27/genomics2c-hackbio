@@ -5,6 +5,8 @@
 - Make a comprehensive markdown of the tutorial steps.
 
 # About Team Genomics_two_C 🌈
+|Team Lead - @Preeti| |Co-Lead - @Sadaf|
+
 Hii all! Meet Team Genomics_two_C ! We are a highly enthusiast team of 14 members from diverse background; but what draws us together is our common interest in genomics.
 
 ## :computer: Project Title: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data.
@@ -47,39 +49,22 @@ Next, two tools were used to assign lineages to the different samples from their
 
 <img src= "https://user-images.githubusercontent.com/71774308/130228701-444375b9-d1cf-437c-8cdc-b1cebc6157aa.jpg" alt="design" height = "500" width = "1000"/>
 
-- **Result_Comparison between nextclade and pangolin output**
-
-ERR5931005	21A (Delta)	ERR5931005	B.1.617.2	Delta (B.1.617.2-like)\
-ERR5931006	21A (Delta)	ERR5931006	B.1.617.2	Delta (B.1.617.2-like)\
-ERR5931007	20I (Alpha, V1)	ERR5931007	B.1.1.7	Alpha (B.1.1.7-like)\
-ERR5931008	21A (Delta)	ERR5931008	B.1.617.2	Delta (B.1.617.2-like)\
-ERR5949456	20I (Alpha, V1)	ERR5949456	B.1.1.7	Alpha (B.1.1.7-like)\
-ERR5949457	20I (Alpha, V1)	ERR5949457	B.1.1.7	Alpha (B.1.1.7-like)\
-ERR5949458	20I (Alpha, V1)	ERR5949458	B.1.1.7	Alpha (B.1.1.7-like)\
-ERR5949459	20I (Alpha, V1)	ERR5949459	B.1.1.7	Alpha (B.1.1.7-like)\
-ERR5949460	21D (Eta)	ERR5949460	B.1.525	Eta (B.1.525-like)\
-ERR5949461	20I (Alpha, V1)	ERR5949461	B.1.1.7	Alpha (B.1.1.7-like)\
-ERR5949462	20I (Alpha, V1)	ERR5949462	B.1.1.7	Alpha (B.1.1.7-like)\
-ERR5949463	20I (Alpha, V1)	ERR5949463	B.1.1.7	Alpha (B.1.1.7-like)\
-ERR5949464	20I (Alpha, V1)	ERR5949464	B.1.1.7	Alpha (B.1.1.7-like)\
-ERR5949465	20I (Alpha, V1)	ERR5949465	B.1.1.7	Alpha (B.1.1.7-like)\
-ERR5949466	20I (Alpha, V1)	ERR5949466	B.1.1.7	Alpha (B.1.1.7-like)\
-ERR5949467	20I (Alpha, V1)	ERR5949467	B.1.1.7	Alpha (B.1.1.7-like)\
-ERR5949468	20I (Alpha, V1)	ERR5949468	B.1.1.7	Alpha (B.1.1.7-like)\
-ERR5949469	20I (Alpha, V1)	ERR5949469	B.1.1.7	Alpha (B.1.1.7-like)
-
 - **Lineage from Pangolin**
 
 B.1.1.7		14\
 B.1.525		1\
 B.1.617.2 	3
 
-
 - **Lineage from Nextclade**
 
 20I (Alpha, V1)	14\
 21A (Delta)	3\
 21D (Eta)	1
+
+
+- **Result_Comparison between nextclade and pangolin output**
+
+![Comparison between Pangolin and Nextclade clade assignments](https://user-images.githubusercontent.com/88307823/130308785-41dc5be8-9f04-4329-a573-ac0df83c24bc.jpg)
 
 From the results, we found that Pangolin and Nextclade are globally coherent despite differences in lineage nomenclature.
 
@@ -97,6 +82,7 @@ From the results, we found that Pangolin and Nextclade are globally coherent des
 |08|@Emma, @Subhodeep|Consensus sequences to clade assignments with Nextclade|
 |09|@Preeti|Comparing Pangolin and Nextclade|
 |10|@Iffy, @Sadaf, @Preeti|Create markdown on Github|
+|11|@Nuiter|Workflow Video Creation|
 
 ### References 📚
 \[1] Budd, J., Miller, B.S., Manning, E.M., Lampos, V., Zhuang, M., Edelstein, M. et al. (2020). Digital technologies in the public-health response to COVID-19. *Nature Medicine* **26**, 1183-1192.\
@@ -106,3 +92,7 @@ From the results, we found that Pangolin and Nextclade are globally coherent des
 \[5]<https://www.biocommons.org.au/events/galaxy-sars-cov2>\
 \[6] <https://pha4ge.org/sars-cov-2-data-analysis-and-monitoring-with-galaxy/>\
 \[7] <https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html#prepare-galaxy-and-data>
+
+
+
+# 🍁🍁🍁 THANK YOU 🍁🍁🍁
